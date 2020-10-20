@@ -1,0 +1,14 @@
+﻿/*!
+    *
+    * Wijmo Library 5.20202.724
+    * http://wijmo.com/
+    *
+    * Copyright(c) GrapeCity, Inc.  All rights reserved.
+    *
+    * Licensed under the GrapeCity Commercial License.
+    * sales@wijmo.com
+    * wijmo.com/products/wijmo-5/license/
+    *
+    */
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const wijmo_angular_base_1=require("wijmo/wijmo.angular.base"),mNg=require("angular"),wjcGridDetail=require("wijmo/wijmo.grid.detail");var wjNg=mNg;const wijmoGridDetailName="wj.grid.detail";exports.ngModuleName="wj.grid.detail";var wijmoGridDetail=wijmo_angular_base_1._registerNgModule("wj.grid.detail");wijmo_angular_base_1.softRefGridDetail()&&wijmoGridDetail.directive("wjFlexGridDetail",["$compile",function(e){return new WjFlexGridDetail(e)}]);class WjFlexGridDetail extends wijmo_angular_base_1.WjDirective{constructor(e){super();this._$compile=e;this.require="^wjFlexGrid";this.terminal=!0;if(wijmo_angular_base_1.WjDirective._dynaTemplates){this.transclude=!1;this.priority=100;this.template=function(e,i){i[WjFlexGridDetail._detailTemplateProp]=e[0].innerHTML;return"<div />"}}else{this.transclude=!0;this.template="<div ng-transclude/>"}}get _controlConstructor(){return wjcGridDetail.FlexGridDetailProvider}_createLink(){return new WjFlexGridDetailLink}}WjFlexGridDetail._detailTemplateProp="$__wjDetailTemplate";WjFlexGridDetail._detailScopeProp="$_detailScope";exports.WjFlexGridDetail=WjFlexGridDetail;class WjFlexGridDetailLink extends wijmo_angular_base_1.WjLink{_initParent(){super._initParent();var e=this,i=this.tAttrs[WjFlexGridDetail._detailTemplateProp],t=this.control;this.itemTemplate=this._getCellTemplate(null!=i?i:wijmo_angular_base_1.WjDirective._removeTransclude(this.tElement[0].innerHTML));var l=this._getCellTemplate(this.itemTemplate);this._tmplLink=this.directive._$compile("<div>"+l+"</div>");t.createDetailCell=function(i,l){var r=e._getCellScope(e.scope.$parent,i,l),a=e._tmplLink(r,(function(e,i){}))[0];a[wijmo_angular_base_1.WjDirective._elemScopeProp]=r;t.grid.hostElement.appendChild(a);r.$root&&!r.$root.$$phase&&r.$apply();a.parentElement.removeChild(a);return a};t.disposeDetailCell=function(e){if(e.detail){let i=e.detail[wijmo_angular_base_1.WjDirective._elemScopeProp];i&&i.$destroy()}};this.parent._isInitialized&&this.control&&this.control.invalidate()}_destroy(){var e=this.parent&&this.parent.control,i=this.control;i.createDetailCell=null;i.disposeDetailCell=null;super._destroy();this._tmplLink=null;e&&e.invalidate()}_getCellScope(e,i,t){var l=e.$new();l.$row=i;l.$col=t;l.$item=i.dataItem;return l}_getCellTemplate(e){e&&(e=(e=(e=e.replace(/ng\-style/g,"style")).replace(/ class\=\"ng\-scope\"( \"ng\-binding\")?/g,"")).replace(/<span>\s*<\/span>/g,""));return e}}

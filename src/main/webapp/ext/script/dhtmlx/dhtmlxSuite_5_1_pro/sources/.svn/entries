@@ -1,0 +1,112 @@
+10
+
+dir
+38
+http://172.21.128.231:8080/svn/wpcs-1-0/trunk/web/ext/script/dhtmlx/dhtmlxSuite_5_1_pro/sources
+http://172.21.128.231:8080/svn/wpcs-1-0
+
+
+
+2020-06-22T04:47:22.276570Z
+5
+cv2293
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+521a3c3a-43c7-374c-85e5-b007a36574ff
+
+dhtmlxAccordion
+dir
+
+dhtmlxCalendar
+dir
+
+dhtmlxCarousel
+dir
+
+dhtmlxChart
+dir
+
+dhtmlxColorPicker
+dir
+
+dhtmlxCombo
+dir
+
+dhtmlxCommon
+dir
+
+dhtmlxDataStore
+dir
+
+dhtmlxDataView
+dir
+
+dhtmlxEditor
+dir
+
+dhtmlxForm
+dir
+
+dhtmlxGrid
+dir
+
+dhtmlxLayout
+dir
+
+dhtmlxList
+dir
+
+dhtmlxMenu
+dir
+
+dhtmlxMessage
+dir
+
+dhtmlxPopup
+dir
+
+dhtmlxRibbon
+dir
+
+dhtmlxSidebar
+dir
+
+dhtmlxSlider
+dir
+
+dhtmlxTabbar
+dir
+
+dhtmlxTemplate
+dir
+
+dhtmlxToolbar
+dir
+
+dhtmlxTree
+dir
+
+dhtmlxTreeGrid
+dir
+
+dhtmlxTreeView
+dir
+
+dhtmlxWindows
+dir
+
+libCompiler
+dir
+

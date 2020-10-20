@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/wpcs-1-0/!svn/ver/34/trunk/web/wpcs/common
+END
+message.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wpcs-1-0/!svn/ver/14/trunk/web/wpcs/common/message.js
+END
+skec.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wpcs-1-0/!svn/ver/34/trunk/web/wpcs/common/skec.js
+END
+AjaxCommon.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wpcs-1-0/!svn/ver/14/trunk/web/wpcs/common/AjaxCommon.jsp
+END
+wpcs_common.css
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wpcs-1-0/!svn/ver/23/trunk/web/wpcs/common/wpcs_common.css
+END
+wpcs_common.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wpcs-1-0/!svn/ver/14/trunk/web/wpcs/common/wpcs_common.js
+END
+wpcs_blank.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wpcs-1-0/!svn/ver/34/trunk/web/wpcs/common/wpcs_blank.jsp
+END
+wpcs_template.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wpcs-1-0/!svn/ver/32/trunk/web/wpcs/common/wpcs_template.jsp
+END
+wpcs_error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wpcs-1-0/!svn/ver/14/trunk/web/wpcs/common/wpcs_error.jsp
+END

@@ -1,0 +1,1215 @@
+/* CSS Document */
+
+body {
+	margin:0px;
+	font-family:'verdana, �룍���, Dotum,  sans-serif';
+	font-size:11px ; 
+	font-color:#444444;
+	scrollbar-face-color:#FFFFFF;
+	scrollbar-highlight-color:#BBBBBB;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-shadow-color: #BBBBBB;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: #f5f5f5;
+	scrollbar-arrow-color: #BBBBBB;
+	padding:2px 7px 0px 7px;
+}
+
+img 	{  border : 0;}  
+
+/* table [border, cellspacing , cellpadding 0 泥섎━*/
+table {
+	border-spacing:0px;
+	border:0px;
+	border-collapse:collapse;
+}
+
+td, th, h1, h2, h3, h4, h5, h6, p, b, span, a, div, input, textarea ,select{ 
+	font-family:Verdana, �룍���, Dotum, Arial ; 
+	font-size: 11px ; 
+	font-color:#444444;
+	line-height:18px;
+	padding:0px;
+	margin:0px;
+}
+
+
+/*�겢由��떆 �젏�꽑�젣嫄�*/
+a {selector-dummy : expression(this.hideFocus=true);} 
+
+
+a:link{		
+	color:#000000;
+	text-decoration:none;
+	}
+
+a:hover{
+	color:#538AD0;
+	text-decoration:underline;
+	}
+
+a:visited{
+	color:#777777;
+	text-decoration:none;
+	}
+
+
+/*	==============================================
+	input style
+	==============================================	*/ 
+
+.input{
+	height:21px; 
+	padding:0px 2px;
+	background-color:#ffffff; 
+	border:1px solid #BBBBBB; 
+	margin:0;
+	vertical-align:middle;
+}
+
+input.gray{
+
+		height:21px; 
+		padding:0px 2px;
+		background-color:#ffffff; 
+		border:1px solid #cccccc;
+		color:#339999;  
+		/*line-height:16px;*/
+		vertical-align: middle;
+		
+		}
+
+input.gray02{
+
+		height:21px; 
+		background-color:#FFFFFF; 
+		border:1px solid #cccccc;
+		color:#000000;  
+		font-weight:bold;
+		/*line-height:16px;*/
+		text-align:right;
+		vertical-align: middle;	
+
+		}
+
+input.read{
+
+		height:21px; 		
+		padding:0px 2px;
+		background-color:#ECECEC; 
+		border:1px solid #E3E3E3;		 
+		/*line-height:16px;*/
+		vertical-align: middle;	
+
+		}
+		
+input.combo{
+
+		height:21px; 		
+    	padding:0px 2px;
+    	background-color:#ffffff; 
+    	border:1px solid #BBBBBB; 
+    	margin:0;
+    	vertical-align:middle;
+		border-right-color: #ffffff;
+        border-right:solid 0pt;
+		}		
+
+.checkbox{MARGIN:0px -5px -2px 0px}
+
+select{height:21px;font:11px/1.5em Verdana, �룍���, Dotum, Arial ; color:#666666;vertical-align:middle}
+
+textarea{
+
+	padding:5px;font:11px/1.5em Verdana, �룍���, Dotum, Arial ;
+	color:#666666;
+	border:1px solid #A5ACB2;
+
+}
+
+radio {
+	border:none;
+	vertical-align:middle;
+}
+
+/*=============================================================================
+ -.fullsize       :  Page �쁺�뿭  Width媛�濡쒓컪
+* .floatleft		: div,h1,h2 醫뚯륫留욎땄
+* .floatright		:  div,h1,h2 �슦痢〓쭪異�
+============================================================================= */	
+
+.fullsize { 
+	width:100%;		
+}
+
+.floatleft {
+	float:left;
+}
+
+.floatright {
+	float:right;
+}
+
+
+/*============================================================================= 
+* location : 硫붾돱 �쐞移� �쁺�뿭
+============================================================================*/ 
+
+.location {
+
+	font:11px/1.5em Verdana, Arial,	�룍���, Dotum;
+	color:#7F7F7F;
+	font-size:11px;
+	color:#0B8BA7; 
+	padding-top:5px;
+	padding-right:10px;
+	text-align:right;
+}
+
+.location b{
+	color:#3B85CC;
+	text-align:right;
+	font-size:11px;
+}
+
+.location a, .location a:active, .location a:link, .location a:visited{
+	text-decoration:none; 
+	color:#0B8BA7; 
+	font-weight:normal;
+	font-size:11px;
+} 
+
+.location a:hover {
+	text-decoration:underline; 
+	color:#3B85CC; 
+	font-weight:normal;
+	font-size:11px;
+} 
+
+
+ /*=============================================================================
+* .pageinfo  (colorTheme �쟻�슜)
+* .h1line:  Page Title �씪�씤 �쁺�뿭
+*  h1 :  Page Title
+*  h2.h3         :  Sub Title2,3 
+=================================================================================*/
+
+.h1line {
+	border-bottom:2px solid #6699CC;
+	padding:0px 10px;
+	margin-bottom:5px;
+}
+
+h1 {
+	padding-left:20px;
+	padding-top:5px;
+	font-size:12px; 
+	color:#000000;
+	font-weight:bold; 
+	//background-image:url(../../image/piano/icon/Pageinfo.gif);
+	background-repeat:no-repeat;
+	background-position:10px; 50%;
+}
+
+h2 {
+	padding-left:10px;
+	padding-top:3px;  
+	font-size:11px;  
+	font-weight:bold; 
+	color:#446E96;
+	background-image:url(../../image/piano/icon/SubTitle04.gif);
+	background-repeat:no-repeat;
+	background-position:0px 65%; 
+}		
+
+
+
+/*	==============================================
+	page infomation 
+	==============================================	*/ 
+#pageinfomation{
+	margin:0 0 0 0;
+	width:100%;
+	padding-bottom:3px;
+   
+}
+#pageinfomation	table{
+
+		width:100%;
+		height:24px;
+		background-color:#E9E9E9;
+
+}
+
+.pageinfo{
+			font:13px/0.5em Verdana, �룍���, Dotum, Arial ;
+			font-weight:bold;
+			color:#1C66AC;
+			padding-left:25px;
+			background-repeat: no-repeat;
+			background-position:10px; 50%;
+			background-image:url(../../image/piano/icon/Pageinfo.gif);			 
+			line-height:16px;
+			text-align:left; 
+			vertical-align: middle
+			
+		}
+
+
+/*============================================================================= 
+* buttonarea : Page �긽�떒踰꾪듉�쁺�뿭
+* rowbuttonArea :row�뻾湲곕뒫踰꾪듉�쁺�뿭
+
+============================================================================*/ 
+.buttonArea	{
+	text-align:right;
+	height:23;
+	padding:0px	5px 2px 5px;
+}
+
+.rowbuttonArea {
+	text-align:right;
+	vertical-align:bottom;
+	padding-right:4px;
+	padding-top:3px;
+	height:21;
+}
+
+
+/*=============================================================================
+* searchbox  :  寃��깋 議곌굔 �쁺�뿭div
+* searchbox table :	寃��깋 議곌굔 �쁺�뿭table
+* serachbox th : 寃��깋�젣紐⑹쁺�뿭
+ ============================================================*/
+.searchbox {
+ 	padding:0px 2px;
+	margin-bottom:5px;
+}
+.searchbox table {
+	width: 100%;
+}
+
+.searchbutton {
+	text-align:right;
+	padding-right:5px;
+	float:right;
+}
+
+.serachboxTL {
+	width:10px;
+	height:10px;
+	background-image:url(../../image/piano/blue/searchbox_Blue_TL.gif);
+	background-repeat:no-repeat;
+}
+.serachboxTM {
+	height:10px;
+	background-image:url(../../image/piano/blue/searchbox_Blue_TM.gif);
+	background-repeat:repeat-x;
+}
+.serachboxTR {
+	background-image:url(../../image/piano/blue/searchbox_Blue_TR.gif);
+	background-repeat:no-repeat;
+	width:10px;
+	height:10px;
+}
+.serachboxML {
+	background-image:url(../../image/piano/blue/searchbox_Blue_ML.gif);
+	background-repeat:repeat-y;
+}
+.serachboxMR {
+	background-image:url(../../image/piano/blue/searchbox_Blue_MR.gif);
+	background-repeat:repeat-y;
+}
+.serachboxBL {
+	width:10px;
+	height:10px;
+	background-image:url(../../image/piano/blue/searchbox_Blue_BL.gif);
+	background-repeat:no-repeat;
+}
+.serachboxBM {
+	background-image:url(../../image/piano/blue/searchbox_Blue_BM.gif);
+	background-repeat:repeat-x;
+}
+.serachboxBR {
+	width:10px;
+	height:10px;
+	background-image:url(../../image/piano/blue/searchbox_Blue_BR.gif);
+	background-repeat:no-repeat;
+	
+}
+.serachboxMiddle {
+	background-color:#F3F9FB;
+}
+.searchbox th{
+	float:left;
+	padding:2px 5px 2px 15px;
+	/*background-image:url(../../image/piano/blue/searchbox_List_ico.gif);*/
+	background-repeat:no-repeat;
+	background-position:5px 10px;
+	color:#4D4D4D;
+	font-family:'Verdana, �룍���, Dotum, Arial ';
+	font-size:11px;
+	font-weight:normal;
+}
+
+.searchbox td{
+	text-align:left;
+}
+
+/*=============================================================================
+ -  PageNavigationTable : Multi Table Page Navigation  display 
+ ------------------------------------------------------------------------------ 
+
+ ============================================================================*/ 
+.pageNavigation table.type01{
+	width:100%;
+	height:30px;
+}
+
+.pageNavigation table.type02{
+	width:100%;
+	border-top:1px solid #DDDDDD;
+	height:22px;
+}
+
+.resultRow {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#686868;
+	font-size:11px;
+	padding:0px 5px;
+}
+
+.resultRow B{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#F36729;
+	font-size:11px;	
+}
+
+.pagenumber {
+	float:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#686868;
+	font-size:11px;
+	text-align:center;
+}
+	
+.pagenumber b{
+	float:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#686868;
+	font-size:11px;
+	text-align:center;
+}
+
+.pagenumber a, .pagenumber a:active , .pagenumber a:visited 	{ 
+	text-decoration:none;  
+	float:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#686868;
+	font-size:11px;
+	text-align:center;
+} 
+
+.pagenumber a:hover { 
+	text-decoration:underline;  
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#686868;
+	font-size:11px;
+	text-align:center;
+}  
+
+
+/*=============================================================================
+*  recordbox   :  Multi Data display �쁺�뿭( 議고쉶 -List �쓽 湲곕낯 Table)
+* .recordbox th : table  Header Cell 
+* .recordbox td : table  Detail Cell 
+* .evenRowColor  : table�쓽 吏앹닔 Row �쓽 諛곌꼍 Color
+* .evenRowColor02  : table�쓽 吏앹닔 Row �쓽 諛곌꼍 Color_ 二쇨컙�씪�젙 _ �씪�슂�씪
+* .evenRowColor03  : table�쓽 吏앹닔 Row �쓽 諛곌꼍 Color_ 二쇨컙�씪�젙 _ �넗�슂�씪
+* .mouseOverColor: Row �뿉 Mouse Over�떆  background color
+* .recordTableSize : width 100%濡� recordTable �룞�씪�븳 style (width size媛� �젙�빐吏� div濡� 媛먯떥 �궗�슜)
+============================================================================*/    
+
+.recordbox {
+
+	margin-bottom:3px;
+}
+
+.recordbox table { 
+	width :100%;
+	border-left:1px solid #D7D7D7;
+	border-top:2px solid #5E8CAD;
+	border-collapse:collapse;
+}
+
+
+.recordbox th	{
+	font-size:11px;
+	font-weight:normal;
+	padding:0px 4px;
+    height:22px;
+	color: #156F7B; 
+	background-color: #F3F3F3; 
+	border-right: 1px solid #D7D7D7;	
+	border-bottom: 1px solid #82BEC8; 
+}
+
+
+.recordbox td { 
+    font-size:11px;
+	border: 1px solid #D7D7D7; 
+	padding:0px 4px;
+	height:26px;
+}
+
+.recordbox a, .recordbox a:active , .recordbox a:visited 	{ 
+	text-decoration:none;  
+	color:#2A84BD;  
+	font-weight:normal;  
+} 
+
+.recordbox a:hover { 
+	text-decoration:underline;  
+	color:#004BA8;  
+	font-weight:normal;  
+}  
+.evenRowColor { 
+	//background-color:#EAEBEB; 
+	background-color:#f7faff; 
+}
+.mouseOverColor	{ 
+	/*background-color:#FFFFE2; */
+	background-color:#F4EAF7;
+}
+
+.evenRowColor02 { 
+	background-color:#ECE3EF; 
+}
+
+.evenRowColor03 { 
+	background-color:#DFECF2; 
+}
+/*============================================================================= 
+ - fieldset :field瑜� �븯�굹濡� 臾띠뼱 �넃�쓬
+ - legend:
+=========================================================================*/
+
+fieldset {
+	border: 2px solid #DDDDDD;
+	color: #565551;
+	font-size: 11pt;
+	text-align: left;
+}
+ 
+fieldset th{
+
+	padding:0px 5px 2px 20px;
+	height:22px;
+	font:11px/0.5em Verdana, �룍���, Dotum, Arial ; 
+	color:#58666D;
+	line-height:18px;
+	background:url(../../image/piano/blue/searchbox_List_ico.gif)	no-repeat 10px 45%;
+
+}
+
+fieldset td{
+
+	padding:0px 10px 2px 10px;
+	height:22px;
+	font:11px/0.5em Verdana, �룍���, Dotum, Arial ; 
+	color:#58666D;
+	line-height:18px;		
+
+}
+
+legend {
+
+	color:#339999;
+	font-size:11px;
+	font-weight:bold;
+	padding:0px 5px;
+}
+
+
+
+
+/*============================================================================= 
+ - SubPage Tab 
+-----------------------------------------------------------------------------------
+
+ -  .tabon : �긽�떒 tab硫붾돱 on �쇊履� (諛곌꼍�씠誘몄��)
+ -  .tabon div : �긽�떒 tab硫붾돱 on �삤瑜몄そ (諛곌꼍�씠誘몄��)
+ -  .taboff : �긽�떒 tab硫붾돱 off �쇊履� (諛곌꼍�씠誘몄��)
+ -  .taboff div : �긽�떒tab硫붾돱 on �삤瑜몄そ (諛곌꼍�씠誘몄��)
+=========================================================================*/
+
+#tabArea{margin:2px 5px 5px 5px;}
+
+.tabbox {
+    width:100%;
+    height:100%;
+	border:2px solid #A48CB9;
+	padding:5px;
+}
+
+.tabLine {
+	
+	border-top:2px solid #7AADCC;
+	padding-top:-4px;
+}
+
+.Tabletype01{
+
+	border:2px solid #DDDDDD;
+	padding:5px;
+
+}
+
+.Tabletype01 th{
+
+	padding:0px 5px 2px 5px;
+	font-family:'Verdana, �룍���, Dotum, Arial ';
+	font-size:11px;
+	color:#6D6D6D;
+	font-weight:normal;
+	height:24px;
+}
+
+.Tabletype01 td{
+
+	padding:0px 5px 2px 5px;
+	font-family:'Verdana, �룍���, Dotum, Arial ';
+	font-size:11px;
+	color:#6D6D6D;
+	font-weight:normal;
+	height:24px;
+}
+
+
+.tabline {
+	border-top:1px solid #AEC0CE;
+	vertical-align:top;
+	margin-top:-4px;
+}
+
+	
+.tabon {
+	background-image:url(../../image/piano/blue/tabon_L.gif);
+	background-repeat:no-repeat;
+	background-position: top left;
+	padding-left:16px;
+}
+
+.tabon div {
+	background-image:url(../../image/piano/blue/tabon_R.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+	color:#FFFFFF;	
+	padding:2px 10px 1px 0px;
+	height:16px;
+}
+
+.taboff {
+	background-image:url(../../image/piano/blue/taboff_L.gif);
+	background-repeat:no-repeat;
+	background-position: top left;
+	padding-left:16px;
+
+}
+
+.taboff div {
+	background-image:url(../../image/piano/blue/taboff_R.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+	color:#666666;	
+	padding:2px 10px 1px 0px;
+	height:16px;
+}
+
+/*  SubPage Tab02   */
+.tabon02 {
+	background-image:url(../../image/piano/blue/tabon_L02.gif);
+	background-repeat:no-repeat;
+	background-position: center left;
+	padding-left:16px;
+}
+
+.tabon02 div {
+	background-image:url(../../image/piano/blue/tabon_R02.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+	color:#FFFFFF;	
+	padding:2px 10px 1px 0px;
+	height:16px;
+}
+
+.taboff02 {
+	background-image:url(../../image/piano/blue/taboff_L.gif);
+	background-repeat:no-repeat;
+	background-position: center left;
+	padding-left:16px;
+}
+
+.taboff02 div {
+	background-image:url(../../image/piano/blue/taboff_R.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+	color:#666666;	
+	padding:2px 10px 1px 0px;
+	height:16px;
+}
+
+.tabon a:active, .tabon a:link, .tabon a:visited, .tabon02 a:active, .tabon02 a:link, .tabon02 a:visited  {
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.taboff a:active, .taboff a:link, .taboff a:visited, .taboff02 a:active, .taboff02 a:link, .taboff02 a:visited {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.tabon a:hover, .tabon02 a:hover, {
+
+	text-decoration:none; 
+
+}
+ 
+.taboff a:hover, .taboff02 a:hover{
+
+	text-decoration:none;
+	color:#9933CC;
+}
+
+.taboff02 a:hover{
+
+	text-decoration:none;
+	color:#5A31AD;
+}
+ 
+/*=============================================================================
+* field box  :  Single Data display �쁺�뿭
+*----------------------------------------------------------------------------- 
+* .fieldbox th : Table Header Cell 1depth
+* .fieldboxth2 : Table Header Cell 2depth
+* .fieldbox td : Table Detail Cell 
+* .mandatorylabel : �븘�닔�엯�젰  Labeling Cell 
+* .fieldbox  :padding-bottom吏��젙 
+* .txt_board: 寃뚯떆�뙋�뿉 �궗�슜 
+============================================================================*/ 
+
+.fieldTable table{
+
+		width:100%;
+		border-top:2px solid #5E8CAD;
+		border-left: 1px solid #DDDDDD;
+		border-collapse:collapse;
+
+}
+
+.fieldTable th{
+
+		border-right:1px solid #DDDDDD;
+		border-bottom: 1px solid #82BEC8;
+		padding:0px 5px 0px 5px;
+		/*background-color:#F3F9FB;*/
+		background-color:#F3F3F3;
+		color:#006173;
+		font-weight:normal;
+		height:25px;
+        text-align: left;
+}
+
+
+
+.fieldTable td{
+
+		border-right:1px solid #DDDDDD;
+		border-bottom: 1px solid #82BEC8;
+		padding:0px 5px 0px 5px;
+		height:25px;
+}
+
+.fieldTable td.Grid{
+
+		border-right:1px solid #DDDDDD;
+		border-bottom: 1px solid #82BEC8;
+		padding:0px;
+
+}
+
+.fieldTable td.type01{
+		border-right:1px solid #DDDDDD;
+		border-bottom: 1px solid #82BEC8;
+		padding:0px;
+		height:25px;
+}
+
+
+.fieldTable strong{
+
+		color:#FF4E00;			
+		font-weight:bold;
+
+}
+
+
+.remark	{
+
+		background-color:#D6E6CE;
+		color:#009900;
+		padding:3px;
+			
+}
+
+
+.mandatory  {
+	color:#6D6D6D;
+	float:left;
+	padding-top:5px;
+}
+
+.mandatoryicon {
+	color:#6D6D6D;
+	font-weight:bold;
+}
+
+	
+
+.fieldTable02 table{
+
+		width:100%;
+		border:2px solid #7AADCC;
+		border-collapse:collapse;
+
+}
+
+
+.fieldTable02 th{
+
+		border-right:1px solid #7AADCC;
+		border-bottom: 1px solid #7AADCC;
+		padding:0px 5px 0px 5px;
+		background-color:#ECEFF2;
+		color:#6D6D6D;
+		font-weight:normal;		
+		line-height:18px;
+		height:25px;
+		text-align: left;
+
+}
+
+.fieldTable02 td{
+
+		border-right:1px solid #7AADCC;
+		border-bottom: 1px solid #7AADCC;
+		line-height:18px;
+		padding:0px 5px 0px 5px;
+		height:25px;
+
+}
+
+.fieldTable02 td strong{
+
+		color:#FF3333;
+		font-weight:normal;
+
+}
+
+
+
+.fieldTable03 table{
+
+		width:100%;
+		border:0px;
+
+}
+
+
+.fieldTable03 td{
+
+		padding:0px 0px 0px 0px;
+		height:25px;
+        border:0px;		
+
+}
+
+.fieldTable03 td.type01{
+        
+        border-right:1px solid #7AADCC;
+		padding:0px 5px 0px 5px;
+		height:25px;	
+
+}
+
+.fieldTablejo table{
+
+		width:100%;
+		border:2px solid #7AADCC;
+		border-collapse:collapse;
+
+}
+
+
+.fieldTablejo th{
+
+		border-right:1px solid #7AADCC;
+		border-bottom: 0px solid #7AADCC;
+		padding:0px 5px 0px 5px;
+		background-color:#ECEFF2;
+		color:#6D6D6D;
+		font-weight:normal;		
+		line-height:18px;
+		height:25px;
+		text-align: left;
+
+}
+
+.fieldTablejo td{
+
+		border-right:1px solid #7AADCC;
+		border-bottom: 1px solid #7AADCC;
+		line-height:18px;
+		padding:0px 5px 0px 5px;
+		height:25px;
+
+}
+
+.fieldTablejo td strong{
+
+		color:#FF3333;
+		font-weight:normal;
+
+}
+ 
+/* �몢媛� 異붽�� */
+.fieldTable  a, .fieldTable a:active, .fieldTable a:visited {  
+    text-decoration:none;  
+	color:#004BA8;    
+} 
+
+.fieldTable a:hover {  
+    text-decoration:underline;  
+	color:#004BA8;
+}
+ 
+
+/*=============================================================================
+* �떖�젰愿��젴
+*-------------------------------------------------------------------------------
+* CalendarBox	: 寃��깋寃곌낵由ъ뒪�듃 div
+============================================================================*/    
+.CalendarBox{
+	
+	padding:0px;
+}
+
+
+.CalendarBox table{ 
+
+	width :100%;
+	background-color:#CCE2DB;	
+	border: 1px solid #A2C3BE;
+}
+
+.CalendarBox caption{
+
+	background-color:#CCE2DB;
+	color:#432907;
+	padding-top:5px;
+	font:14px/0.5em Verdana, 援대┝, �룍���, Dotum, Arial ;
+	font-weight:bold;
+	padding:10px 10px 10px 20px;
+	text-indent:0.5em; /* �뱾�뿬�벐湲� */
+	text-align:center;
+}
+
+
+.CalendarBox caption.type02{
+	
+	background-color:#CCE2DB;
+	color:#432907;
+	font:12px/0.5em Verdana, 援대┝, �룍���, Dotum, Arial ;
+	font-weight:bold;	
+	padding:3px 0px;
+}
+
+
+.CalendarBox th	{
+	
+	height:40px;
+	font-weight:bold;
+	padding-left:10px;
+	color: #598F75; 
+	background-color: #D6E8DF; 
+	border-right: 1px solid #C2D8CD;	
+	border-bottom:1px solid #A2C3BE;
+	
+}
+
+.CalendarBox th.type01	{
+
+	font-weight:bold;
+	padding-left:10px;	
+	background-color: #E8CCE3; ;
+	border-right:1px solid #C2D8CD;
+	border-bottom:1px solid #A2C3BE;
+	color:#C43AA2;  /* sun */
+}
+
+.CalendarBox th.type02	{
+	
+	font-weight:bold;
+	padding:-left:10px;	
+	background-color: #C6E3D7;
+	border-right:1px solid #C2D8CD;	
+	border-bottom:1px solid #A2C3BE;
+	color: #2DA968; 
+}
+
+
+.CalendarBox th.small	{	 
+    margin:0px;
+    padding:0px;    
+    text-align:center;
+	height:22px;
+}
+
+.CalendarBox td {
+
+	height:60px;
+	font-weight:bold;
+	padding:5px;
+}
+
+.CalendarBox td.small {
+	height:30px;  // 20->30
+}
+
+.CalendarBox td.type01 { 
+
+	background-color: #FFFFFF;
+	color:#F45518; /* �씪�슂�씪 */
+	border: 1px solid #C2D8CD; 
+	text-align:left;
+	vertical-align:top;
+	padding:5px 5px 2px 10px;
+}
+
+.CalendarBox td.type02 {
+
+	background-color: #FFFFFF;
+	color:#1FB25E; /* �넗�슂�씪 */
+	border: 1px solid #C2D8CD; 
+	text-align:left;
+	vertical-align:top;
+	padding:5px 5px 2px 10px;
+}
+	
+
+.CalendarBox td.type03 {
+
+	background-color: #FFFFFF;
+	color:#666666; /* �룊�씪 */	
+	border: 1px solid #C2D8CD; 
+	text-align:left;
+	vertical-align:top;
+	padding:5px 5px 2px 10px;
+}
+
+
+.CalendarBox td.evenRowColor{ 
+	background-color:#EEEEEE; 
+	color:#3399CC;
+}
+
+
+
+/* 4媛� 異붽�� */
+.CalendarBox td.holyday {   /* �씪�슂�씪 - 諛곌꼍泥섎━ �룷�븿  */
+	background-color: #FFE4C4;
+	color:#F45518; /* �씪�슂�씪 */
+	border: 1px solid #C2D8CD; 
+	text-align:left;
+	vertical-align:top;
+	padding:5px 5px 2px 10px;
+} 
+.CalendarType1 {  
+	color:#FF4500; /* �봽濡쒖젥�듃 �뀑�뾽 - 怨듯쑕�씪 湲��옄�깋    */ 
+}
+.CalendarType2 {  
+	color:#0000CD; /* �봽濡쒖젥�듃 �뀑�뾽 -  留덉씪�뒪�넠 湲��옄�깋  0000CD  4169E1 */ 
+}
+.CalendarSection {  
+	color:#808080 /*  section  */ 
+}
+
+/*=============================================================================
+* common : 怨듯넻�쑝濡� �궗�슜�븷 遺�遺�
+.sumTable: filed Table�쓽 �넻怨� �삉�뒗 Total area�뿉 �궗�슜
+
+============================================================================*/ 
+.sumTable {
+
+	width:100%;
+	height:30px;
+	font:11px/0.5em Verdana, �룍���, Dotum, Arial ;
+	font-weight:bold;
+	color:#446E96;
+	padding:0px 5px;
+	text-align:left;
+	line-height:18px;
+	background-color:#E7E7E7;	
+
+
+}
+
+.dotline {
+	border-bottom:1px dotted #AEC0CE;
+	padding-top:6px;
+}
+
+
+
+
+/*=============================================================================
+.Gridbox: tree�뿉 �쟻�슜
+============================================================================*/ 
+.Gridbox {  
+
+ border-top:2px solid #5E8CAD;
+ border-right:1px solid #D7D7D7;
+ border-left:1px solid #D7D7D7;
+ border-bottom:1px solid #D7D7D7;
+ border-collapse:collapse;
+ padding:0px 5px 0px 5px;
+
+}
+
+.treebox {
+ padding-bottom:5px;
+}
+
+.treebox table { 
+ width :100%;
+ border-top:2px solid #5E8CAD;
+ border-collapse:collapse;
+}
+.treebox td{ 
+ border: 1px solid #D7D7D7; 
+}
+
+
+/*=============================================================================
+.common 
+============================================================================*/ 
+
+.space {
+	
+	height:30px;
+}
+
+.txt_blue {
+    font-size:11px;
+    font-weight: bold;
+    color:#446E96;
+    padding-top:3px;
+}
+
+
+/*=============================================================================
+board
+============================================================================*/  
+.txt_board {
+    font-size:12px;
+}
+ 
+.txt_board table{ 
+    font-size:12px;
+}
+  
+  
+.txt_board  a,.txt_board a:active , .txt_board a:visited    {  
+    font-size:12px;    
+    text-decoration:none;  
+	color:#004BA8;    
+} 
+
+.txt_board a:hover {  
+    font-size:12px;
+    text-decoration:underline;  
+	color:#004BA8;
+}
+  
+.txt_board b{
+    font-size:12px;
+}
+
+.txt_board th{
+    font-size:12px;
+    line-height:24px;    
+} 
+.txt_board td{  
+    font-size:12px;
+    line-height:23px;    
+}
+.txt_board select{ 
+    font-size:12px;
+} 
+.txt_board input{ 
+    font-size:12px;
+}
+.txt_board textarea{ 
+    font-size:12px;
+    padding:0px;
+    margin:0px;     
+}  
+
+/*********POPUP Style********/
+
+.skin0 
+{
+	position:absolute;
+	text-align:left;
+	width:200px;
+	border:2px solid black;
+	background-color:menu;
+	font-family:Verdana;
+	line-height:20px;
+	cursor:default;
+	visibility:hidden;
+}
+.skin1 
+{
+	cursor:default;
+	font:menutext;
+	position:absolute;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	width:120px;
+	align:center;
+	background-color:menu;
+	border:1 solid buttonface;
+	visibility:hidden;
+	border:2 outset buttonhighlight;
+}
+
+.menuitems 
+{
+	padding-left:15px;
+	padding-right:10px;
+	background-color: threedlightshadow;
+}
+
+.blankitems 
+{   
+    padding-left:15px;
+	padding-right:10px;
+    border:1px solid threedlightshadow;
+    border-top-color: threedshadow;
+    border-bottom-color: threedhighlight;
+    
+}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss
+END
+_core.scss
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/_core.scss
+END
+_functions.scss
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/_functions.scss
+END
+_icons.scss
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/_icons.scss
+END
+_variables.scss
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/_variables.scss
+END
+materialdesignicons.scss
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/materialdesignicons.scss
+END
+_path.scss
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/_path.scss
+END
+_animated.scss
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/_animated.scss
+END
+_extras.scss
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/wpcs-1-0/!svn/ver/8/trunk/web/ext/style/mdi/scss/_extras.scss
+END
